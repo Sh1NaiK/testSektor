@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+/dist
+
+# local env files
+.env*.local
+.env
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+config/local.json
+
+.idea/
