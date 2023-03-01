@@ -5,12 +5,12 @@
     "port": 5432,
     "username": "postgres",
     "password": "root",
-    "database": "business_sector",
-    "entities": "../**/**.entity.{ts,js}",
-    "synchronize": false
+    "database": "business_sector"
   },
   "app": {
     "port": 80,
     "type": "api"
-  }
+  },
+  "userPerPage": 1,
+  "jwt": "secret_json_web_token"
 }
