@@ -11,6 +11,6 @@
     "port": 80,
     "type": "api"
   },
-  "userPerPage": 1,
+  "userPerPage": 10,
   "jwt": "secret_json_web_token"
 }
